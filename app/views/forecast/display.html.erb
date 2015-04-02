@@ -1,0 +1,106 @@
+<!-- head-->
+<div class="container">
+	<div class="header">
+		<p class="header_font pull-left">上海</p>
+		<p class="header_font pull-right">2015年04月01日发布</p>
+	</div>
+</div>
+<!--kuang -->
+<div class="container">
+	<div class="row">
+		<% (1..5).each do |index| %>
+		<div class="col-xs-6 col-md-3 kuang_head1 ">
+			<div class="touming">
+				<div class="row ">
+					<div class="col-xs-6 col-md-6 ">
+						<%= image_tag "#{index}.png", class:"pic1 img-responsive"%></div>
+					<span class="glyphicon glyphicon-search sousuo icon-white" aria-hidden="true"></span>
+					<div class="col-xs-6 col-md-6 ">
+						<p class="font2 juzhong  margin1">
+							<%=@wenben_fengxian["#{index}"]%></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-xs-2 white">明</div>
+					<div class="col-md-10 col-xs-10">
+						<div class="row ">
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 yellow yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-xs-2 white">后</div>
+					<div class="col-md-10 col-xs-10">
+						<div class="row">
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 blue yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 gray yuanjiao mokuai">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%end%>
+
+		<div class="col-xs-6 col-md-3 kuang_head1 ">
+			<div class="touming">
+				<div class="row ">
+					<div class="col-xs-6 col-md-6 ">
+						<%= image_tag "6.png", class:"pic1 img-responsive"%></div>
+					<div class="col-xs-6 col-md-6 "></div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-xs-10">
+						<div class="row ">
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-xs-2 white"></div>
+					<div class="col-md-10 col-xs-10">
+						<div class="row">
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+							<div class="col-md-15 col-xs-15 ">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row padding1 juzhong padding2 ">
+	<div class="col-md-1 col-xs-2 green yuanjiao  font2">低&nbsp;</div>
+	<div class="col-md-1 col-xs-2 blue yuanjiao  font2">轻微</div>
+	<div class="col-md-1 col-xs-2 yellow yuanjiao  font2">中等</div>
+	<div class="col-md-1 col-xs-2 orange yuanjiao  font2">较高</div>
+	<div class="col-md-1 col-xs-2 red yuanjiao  font2">高&nbsp;</div>
+</div>
+<div class="row">
+	<div class="col-xs-12">
+		<div class=" font2 ">
+			<div class="touming ">
+				<h5 class=" juzhong">疾病风险预报产品说明</h5>
+				<p style="text-indent:2em">
+					疾病风险预报产品主要有分人群感冒、儿童哮喘、慢性阻塞性肺病（COPD）以及中暑四个产品。通过流行病学研究，确定影响疾病的气象环境因素，建立预测预报模型，根据天气预报和空气质量预报结果，确定疾病的风险等级，针对易感人群和不利天气，给出预防建议。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

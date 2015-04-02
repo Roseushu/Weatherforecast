@@ -1,0 +1,47 @@
+$color-red:#ff0000;
+$color-orange:#f39800;
+$color-yellow:#fff100;
+$color-blue:#00a0e9;
+$color-green:#32b16c;
+$color-white:#fff;
+$color-black:#000;
+$color-gray:#eee;
+
+$grid-gutter-width:10px;
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.col-xs-15 {
+    width: 18%;
+    float: left;
+    margin-right: 1px;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 18%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 18%;
+        float: left;
+    }
+}
