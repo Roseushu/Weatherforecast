@@ -1,7 +1,6 @@
 // Place all the styles related to the forecast controller here. 
 // They will automatically be included in application.css. 
 // You can use Sass (SCSS) here:http://sass-lang.com/ 
-@import "variables"; 
 body,html
 {   
 	width: 100%;  
@@ -16,93 +15,94 @@ body,html
 		color:white;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.font1{   
-	color: white;
-	font-size: 15px; 
-} 
-.font2{   
-	color: white;   
-	font-size: 10px; }
-	.kuang_head1{
-		padding-top: 8px; 
-		padding-bottom: 8px;
-	}
-
-	.touming{
+.intervals{
+		padding:5px;
+	.transparent{
 		background: rgba(0,0,0,0.15);
-		padding:9px;
-	}
-	.pic1{
-		width: 100%;
-	}
-	.juzhong{
-		text-align: center;
-
-	}
-	.sousuo{
-		margin-left: -10px;
-		color: white;
-	}
-	.sekuai{
-		margin-bottom: 5px;
-		margin-top: 5px;
-	}
-	.white{
-		color:white;
-	}
-	.yellow{
-
-		background-color: #fff100;
-	}
-	.blue{
-
-		background-color: #00a0e9;
-	}
-	.green{
-		background-color: #32b16c;
-	}
-	.orange{
-		background-color: orange;
-	}
-	.red{
-		background-color: red;
-	}
-	.gray{
-		background-color: rgb(126,154,193);
-	}
-	.toumingse{
-
-		background-color: rgba(0,0,0,0);
-
-	}
-
-	.padding1{padding-left:30px; }
-	.gezi{
-		width: 100%;
-	}
-	.yuanjiao{
-		border-radius:5px;
-
-	}
-
-	.padding2{padding-bottom: 5px;
-		padding-top: 5px;}
-		.margin1{
-			margin-top: -20px;
+		.transparent_pad1{
+		padding: 10px 0 0 5px;
 		}
+		.transparent_pad2{
+		padding-top: 15px;
+		}
+	.transparentcolor{
+     		background: rgba(0,0,0,0.0);
+	}
+}
+}
+.white{
+	color:white;
+}
+.pic_width{
+	width: 100%;
+	}
+.center{
+	text-align: center;
+}
+.icon_search{
+	color: white;
+	font-size:8px;
+	margin-left: -15px;
+	margin-top: 10px;
+}
+.yellow{
+
+	background-color: #fff100;
+}
+.blue{
+	background-color: #00a0e9;
+}
+.green{
+	background-color: #32b16c;
+}
+.orange{
+	background-color: orange;
+}
+.red{
+	background-color: red;
+}
+.gray{
+	background-color: rgb(126,154,193);
+}
+.roundedcorners{
+	border-radius:4px;
+}
+.colorpiece{
+	text-align: center;
+	font-size: 10px;
+}
+.colorpiece_pad{
+	padding: 2px 0 2px 0;
+}
+.colorpiece_1{
+	text-align: center;
+	font-size: 13px;
+}
+.footer_padding{
+	padding:5px;
+}
+.row_pad1{
+	padding:10px 0 2px 0;
+}
+.row_pad2{
+	padding: 2px 0 10px 0;
+}
+.feature_marpad{
+	margin-top: 75px;
+}
+.feature_marpad1{
+	margin-top: 10px;
+}
+.collrpad{
+	margin: 0 1px 0 1px;
+	line-height: 18px;
+}
+.feature_pad1{
+	padding-top: 10px;
+}
+.feature_pad2{
+	padding: 0 10px 10px 10px;
+}
+.featurefont{
+	font-size: 16px;
+}

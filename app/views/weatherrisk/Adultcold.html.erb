@@ -1,0 +1,56 @@
+<div class="container">
+	<%=link_to forecast_display_path do |i| %>
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+			<div class="row">
+				<div class="col-xs-4 col-md-3 ">
+					<%= image_tag "3.png",class:"feature_pad3"%></div>
+				<div class="col-xs-8 col-md-9">
+					<h4 class="white">成人感冒气象风险</h4>
+					<div class="row">
+						<div class="col-md-1 col-xs-2 green roundedcorners  colorpiece_2 white collrpad1">低</div>
+						<div class="col-md-1 col-xs-2 blue roundedcorners  colorpiece_2 white  collrpad1  ">轻微</div>
+						<div class="col-md-1 col-xs-2 yellow roundedcorners  colorpiece_2 white  collrpad1  ">中等</div>
+						<div class="col-md-1 col-xs-2 orange roundedcorners  colorpiece_2 white  collrpad1  ">较高</div>
+						<div class="col-md-1 col-xs-2 red roundedcorners  colorpiece_2 white  collrpad1  ">高</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<% end %>
+	<hr class="divider">
+
+	<div class="row">
+		<div class="col-xs-12 col-md-6 intervals">
+			<div class="transparent">
+				<div class="row feature_pad5">
+					<div class="col-md-2 col-xs-2 white colorpiece longfont ">明天</div>
+					<div class="col-md-6 col-xs-6">
+						<%= render :partial =>"/share/share.html.erb" %>
+					</div>
+				</div>
+				<div class="feature_pad4">
+					<hr class="divider"></div>
+				<h5 class="white feature_pad4">防范人群:体质差的青少年和成年人</h5>
+				<h5 class="white feature_pad6 linespace">
+					防护建议:气温14~17度,气温较今日有点下降,建议根据温度变化及时添衣;风力略大,外出时请注意挡风.
+				</h5>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6 intervals">
+			<div class="transparent">
+				<div class="row feature_pad5">
+					<div class="col-md-2 col-xs-2 white colorpiece longfont">后天</div>
+					<div class="col-md-6 col-xs-6">
+						<%= render :partial =>"/share/share.html.erb" %>
+					</div>
+				</div>
+				<div class="feature_pad4">
+					<hr class="divider"></div>
+				<h5 class="white feature_pad4">防范人群:体质非常差的青少年和成年人</h5>
+				<h5 class="white feature_pad6 linespace">防护建议:气温15~25度,气温上升明显,但温差大,请根据温度变化及时增减衣服;适当锻炼,增强体质.</h5>
+			</div>
+		</div>
+	</div>
+</div>

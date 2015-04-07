@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'weatherrisk/COPD'
+
+  get 'weatherrisk/Oldcold'
+
+  get 'weatherrisk/Adultcold'
+
+  get 'weatherrisk/Childrenasthma'
+
+  get 'weatherrisk/Childrencold'
+
   get 'forecast/display'
 
   # The priority is based upon order of creation: first created -> highest priority.

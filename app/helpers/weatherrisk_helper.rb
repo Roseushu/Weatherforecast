@@ -1,0 +1,2 @@
+module WeatherriskHelper
+end

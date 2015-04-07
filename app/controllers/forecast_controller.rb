@@ -1,13 +1,27 @@
 class ForecastController < ApplicationController
   def display
-  	@wenben_fengxian=
+  	@control=
   	{
-  		"1"=>"         儿童感冒气象风险 ",
-  		"2"=>"         儿童哮喘气象风险 ",
-  		"3"=>"         成人感冒气象风险 ",
-  		"4"=>"         老人感冒气象风险 ",
-  		"5"=>" 慢性阻塞性肺病气象风险",
-  		"6"=>"",
-  	}
+  		"1"=>{
+  			picture:"1.png",
+  			text:"儿童感冒",
+  			href:"/weatherrisk/Childrencold",
+  			},
+  		"2"=>{
+  			picture:"2.png",
+  			text:"儿童哮喘",
+  			href:"/weatherrisk/Childrenasthma",
+  			},
+  		"3"=>{
+  			picture:"3.png",
+  			text:"成人感冒",
+  			href:"/weatherrisk/Adultcold",
+  			},
+  		"4"=>{
+  			picture:"4.png",
+  			text:"老人感冒",
+  			href:"/weatherrisk/Oldcold",
+  			}
+  		}
   end
 end
